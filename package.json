@@ -1,0 +1,28 @@
+{
+  "name": "weather-block",
+  "version": "1.0.0",
+  "description": "Gets the current weather for your location and formats it to use for i3blocks",
+  "main": "weather.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deanproxy/weather-block.git"
+  },
+  "keywords": [
+    "weather",
+    "i3blocks",
+    "i3",
+    "linux"
+  ],
+  "author": "dean jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deanproxy/weather-block/issues"
+  },
+  "homepage": "https://github.com/deanproxy/weather-block#readme",
+  "dependencies": {
+    "rest": "^2.0.0"
+  }
+}
