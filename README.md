@@ -1,3 +1,4 @@
+# How it looks...
 ![Weather Block](http://i.imgur.com/Og4Ene8.png)
 
 # Requirements
