@@ -2,7 +2,7 @@
 const rest = require('rest');
 const mime = require('rest/interceptor/mime');
 
-const APIKEY = 'c7cee422559a135db5f0259e791dfae3';
+const APIKEY = 'yourApiKeyFromOpenWeatherMap';
 const ZIPCODE = '30115';
 
 const client = rest.wrap(mime);
