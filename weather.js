@@ -16,7 +16,8 @@ client(`http://api.openweathermap.org/data/2.5/weather?zip=${ZIPCODE}&units=impe
    .then(response => {
       const info = response.entity;
       let icon = sunnyIcon;
-      switch (info.weather.main) {
+      console.log(info);
+      switch (info.weather[0].main) {
       case 'Clouds':
          icon = cloudyIcon;
          break;
